@@ -1,0 +1,250 @@
+2024-11-09 23:23:54 [restartedMain] INFO  m.c.e.m.EtiqaInsuranceApplication -
+				Starting EtiqaInsuranceApplication using Java 17.0.12 with PID 16776 (C:\Users\Guest User\Downloads\Etiqa_Insurance_springboot-product_customer_feature\Etiqa_Insurance_springboot-product_customer_feature\etiqa-insurance\target\classes started by Guest User in C:\Users\Guest User\Downloads\Etiqa_Insurance_springboot-product_customer_feature\Etiqa_Insurance_springboot-product_customer_feature)
+2024-11-09 23:23:54 [restartedMain] INFO  m.c.e.m.EtiqaInsuranceApplication -
+				No active profile set, falling back to 1 default profile: "default"
+2024-11-09 23:23:55 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor -
+				Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-09 23:23:55 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor -
+				For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-09 23:23:56 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Multiple Spring Data modules found, entering strict repository configuration mode
+2024-11-09 23:23:56 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-09 23:23:56 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Finished Spring Data repository scanning in 278 ms. Found 2 JPA repository interfaces.
+2024-11-09 23:23:58 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Multiple Spring Data modules found, entering strict repository configuration mode
+2024-11-09 23:23:58 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-11-09 23:23:58 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport -
+				Spring Data Redis - Could not safely identify store assignment for repository candidate interface my.com.etiqa.maybank.customer.CustomerRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2024-11-09 23:23:58 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport -
+				Spring Data Redis - Could not safely identify store assignment for repository candidate interface my.com.etiqa.maybank.product.ProductRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2024-11-09 23:23:58 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Finished Spring Data repository scanning in 29 ms. Found 0 Redis repository interfaces.
+2024-11-09 23:24:00 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat initialized with port 8088 (http)
+2024-11-09 23:24:00 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Initializing ProtocolHandler ["http-nio-8088"]
+2024-11-09 23:24:00 [restartedMain] INFO  o.a.catalina.core.StandardService -
+				Starting service [Tomcat]
+2024-11-09 23:24:00 [restartedMain] INFO  o.a.catalina.core.StandardEngine -
+				Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-11-09 23:24:00 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
+				Initializing Spring embedded WebApplicationContext
+2024-11-09 23:24:00 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -
+				Root WebApplicationContext: initialization completed in 5400 ms
+2024-11-09 23:24:01 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper -
+				HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-09 23:24:01 [restartedMain] INFO  org.hibernate.Version -
+				HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-11-09 23:24:02 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator -
+				HHH000026: Second-level cache disabled
+2024-11-09 23:24:03 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo -
+				No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-09 23:24:03 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-1 - Starting...
+2024-11-09 23:24:09 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator -
+				HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-09 23:24:09 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-1 - Starting...
+2024-11-09 23:24:15 [restartedMain] INFO  o.a.catalina.core.StandardService -
+				Stopping service [Tomcat]
+2024-11-09 23:24:15 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLogger -
+				
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-11-09 23:24:31 [restartedMain] INFO  m.c.e.m.EtiqaInsuranceApplication -
+				Starting EtiqaInsuranceApplication using Java 17.0.12 with PID 17580 (C:\Users\Guest User\Downloads\Etiqa_Insurance_springboot-product_customer_feature\Etiqa_Insurance_springboot-product_customer_feature\etiqa-insurance\target\classes started by Guest User in C:\Users\Guest User\Downloads\Etiqa_Insurance_springboot-product_customer_feature\Etiqa_Insurance_springboot-product_customer_feature)
+2024-11-09 23:24:31 [restartedMain] INFO  m.c.e.m.EtiqaInsuranceApplication -
+				No active profile set, falling back to 1 default profile: "default"
+2024-11-09 23:24:31 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor -
+				Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-09 23:24:31 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor -
+				For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-09 23:24:33 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Multiple Spring Data modules found, entering strict repository configuration mode
+2024-11-09 23:24:33 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-09 23:24:33 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Finished Spring Data repository scanning in 183 ms. Found 2 JPA repository interfaces.
+2024-11-09 23:24:35 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Multiple Spring Data modules found, entering strict repository configuration mode
+2024-11-09 23:24:35 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-11-09 23:24:35 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport -
+				Spring Data Redis - Could not safely identify store assignment for repository candidate interface my.com.etiqa.maybank.customer.CustomerRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2024-11-09 23:24:35 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport -
+				Spring Data Redis - Could not safely identify store assignment for repository candidate interface my.com.etiqa.maybank.product.ProductRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2024-11-09 23:24:35 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Finished Spring Data repository scanning in 33 ms. Found 0 Redis repository interfaces.
+2024-11-09 23:24:37 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat initialized with port 8088 (http)
+2024-11-09 23:24:37 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Initializing ProtocolHandler ["http-nio-8088"]
+2024-11-09 23:24:37 [restartedMain] INFO  o.a.catalina.core.StandardService -
+				Starting service [Tomcat]
+2024-11-09 23:24:37 [restartedMain] INFO  o.a.catalina.core.StandardEngine -
+				Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-11-09 23:24:37 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
+				Initializing Spring embedded WebApplicationContext
+2024-11-09 23:24:37 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -
+				Root WebApplicationContext: initialization completed in 6304 ms
+2024-11-09 23:24:39 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper -
+				HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-09 23:24:39 [restartedMain] INFO  org.hibernate.Version -
+				HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-11-09 23:24:39 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator -
+				HHH000026: Second-level cache disabled
+2024-11-09 23:24:40 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo -
+				No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-09 23:24:40 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-1 - Starting...
+2024-11-09 23:24:47 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator -
+				HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-09 23:24:47 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-1 - Starting...
+2024-11-09 23:24:52 [restartedMain] INFO  o.a.catalina.core.StandardService -
+				Stopping service [Tomcat]
+2024-11-09 23:24:52 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLogger -
+				
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-11-09 23:28:41 [restartedMain] INFO  m.c.e.m.EtiqaInsuranceApplication -
+				Starting EtiqaInsuranceApplication using Java 17.0.12 with PID 24452 (C:\Users\Guest User\Downloads\Etiqa_Insurance_springboot-product_customer_feature\Etiqa_Insurance_springboot-product_customer_feature\etiqa-insurance\target\classes started by Guest User in C:\Users\Guest User\Downloads\Etiqa_Insurance_springboot-product_customer_feature\Etiqa_Insurance_springboot-product_customer_feature)
+2024-11-09 23:28:41 [restartedMain] INFO  m.c.e.m.EtiqaInsuranceApplication -
+				No active profile set, falling back to 1 default profile: "default"
+2024-11-09 23:28:41 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor -
+				Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-09 23:28:41 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor -
+				For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-09 23:28:43 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Multiple Spring Data modules found, entering strict repository configuration mode
+2024-11-09 23:28:43 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-09 23:28:43 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Finished Spring Data repository scanning in 153 ms. Found 2 JPA repository interfaces.
+2024-11-09 23:28:44 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Multiple Spring Data modules found, entering strict repository configuration mode
+2024-11-09 23:28:44 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-11-09 23:28:44 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport -
+				Spring Data Redis - Could not safely identify store assignment for repository candidate interface my.com.etiqa.maybank.customer.CustomerRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2024-11-09 23:28:44 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport -
+				Spring Data Redis - Could not safely identify store assignment for repository candidate interface my.com.etiqa.maybank.product.ProductRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2024-11-09 23:28:44 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Finished Spring Data repository scanning in 38 ms. Found 0 Redis repository interfaces.
+2024-11-09 23:28:47 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat initialized with port 8088 (http)
+2024-11-09 23:28:47 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Initializing ProtocolHandler ["http-nio-8088"]
+2024-11-09 23:28:47 [restartedMain] INFO  o.a.catalina.core.StandardService -
+				Starting service [Tomcat]
+2024-11-09 23:28:47 [restartedMain] INFO  o.a.catalina.core.StandardEngine -
+				Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-11-09 23:28:47 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
+				Initializing Spring embedded WebApplicationContext
+2024-11-09 23:28:47 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -
+				Root WebApplicationContext: initialization completed in 5458 ms
+2024-11-09 23:28:48 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper -
+				HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-09 23:28:48 [restartedMain] INFO  org.hibernate.Version -
+				HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-11-09 23:28:48 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator -
+				HHH000026: Second-level cache disabled
+2024-11-09 23:28:49 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo -
+				No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-09 23:28:49 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-1 - Starting...
+2024-11-09 23:28:55 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator -
+				HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-09 23:28:56 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-1 - Starting...
+2024-11-09 23:29:01 [restartedMain] INFO  o.a.catalina.core.StandardService -
+				Stopping service [Tomcat]
+2024-11-09 23:29:01 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLogger -
+				
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-11-09 23:37:35 [restartedMain] INFO  m.c.e.m.EtiqaInsuranceApplication -
+				Starting EtiqaInsuranceApplication using Java 17.0.12 with PID 11740 (C:\Users\Guest User\Downloads\Etiqa_Insurance_springboot-product_customer_feature\Etiqa_Insurance_springboot-product_customer_feature\etiqa-insurance\target\classes started by Guest User in C:\Users\Guest User\Downloads\Etiqa_Insurance_springboot-product_customer_feature\Etiqa_Insurance_springboot-product_customer_feature)
+2024-11-09 23:37:35 [restartedMain] INFO  m.c.e.m.EtiqaInsuranceApplication -
+				No active profile set, falling back to 1 default profile: "default"
+2024-11-09 23:37:35 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor -
+				Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-09 23:37:35 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor -
+				For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-09 23:37:37 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Multiple Spring Data modules found, entering strict repository configuration mode
+2024-11-09 23:37:37 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-09 23:37:37 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Finished Spring Data repository scanning in 167 ms. Found 2 JPA repository interfaces.
+2024-11-09 23:37:38 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Multiple Spring Data modules found, entering strict repository configuration mode
+2024-11-09 23:37:38 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-11-09 23:37:38 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport -
+				Spring Data Redis - Could not safely identify store assignment for repository candidate interface my.com.etiqa.maybank.customer.CustomerRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2024-11-09 23:37:38 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport -
+				Spring Data Redis - Could not safely identify store assignment for repository candidate interface my.com.etiqa.maybank.product.ProductRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2024-11-09 23:37:38 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Finished Spring Data repository scanning in 17 ms. Found 0 Redis repository interfaces.
+2024-11-09 23:37:40 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat initialized with port 8080 (http)
+2024-11-09 23:37:40 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Initializing ProtocolHandler ["http-nio-8080"]
+2024-11-09 23:37:40 [restartedMain] INFO  o.a.catalina.core.StandardService -
+				Starting service [Tomcat]
+2024-11-09 23:37:40 [restartedMain] INFO  o.a.catalina.core.StandardEngine -
+				Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-11-09 23:37:41 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
+				Initializing Spring embedded WebApplicationContext
+2024-11-09 23:37:41 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -
+				Root WebApplicationContext: initialization completed in 5713 ms
+2024-11-09 23:37:43 [restartedMain] INFO  org.hibernate.Version -
+				HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-11-09 23:37:43 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator -
+				HHH000026: Second-level cache disabled
+2024-11-09 23:37:44 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo -
+				No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-09 23:37:44 [restartedMain] INFO  o.a.catalina.core.StandardService -
+				Stopping service [Tomcat]
+2024-11-09 23:47:44 [restartedMain] INFO  m.c.e.m.EtiqaInsuranceApplication -
+				Starting EtiqaInsuranceApplication using Java 17.0.12 with PID 19912 (C:\Users\Guest User\Downloads\Etiqa_Insurance_springboot-product_customer_feature\Etiqa_Insurance_springboot-product_customer_feature\etiqa-insurance\target\classes started by Guest User in C:\Users\Guest User\Downloads\Etiqa_Insurance_springboot-product_customer_feature\Etiqa_Insurance_springboot-product_customer_feature)
+2024-11-09 23:47:44 [restartedMain] INFO  m.c.e.m.EtiqaInsuranceApplication -
+				No active profile set, falling back to 1 default profile: "default"
+2024-11-09 23:47:45 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor -
+				Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-09 23:47:45 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor -
+				For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-09 23:47:48 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Multiple Spring Data modules found, entering strict repository configuration mode
+2024-11-09 23:47:48 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-09 23:47:48 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Finished Spring Data repository scanning in 269 ms. Found 2 JPA repository interfaces.
+2024-11-09 23:47:48 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Multiple Spring Data modules found, entering strict repository configuration mode
+2024-11-09 23:47:48 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-11-09 23:47:48 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport -
+				Spring Data Redis - Could not safely identify store assignment for repository candidate interface my.com.etiqa.maybank.customer.CustomerRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2024-11-09 23:47:48 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport -
+				Spring Data Redis - Could not safely identify store assignment for repository candidate interface my.com.etiqa.maybank.product.ProductRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2024-11-09 23:47:48 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+2024-11-09 23:47:51 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat initialized with port 8080 (http)
+2024-11-09 23:47:51 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol -
+				Initializing ProtocolHandler ["http-nio-8080"]
+2024-11-09 23:47:51 [restartedMain] INFO  o.a.catalina.core.StandardService -
+				Starting service [Tomcat]
+2024-11-09 23:47:51 [restartedMain] INFO  o.a.catalina.core.StandardEngine -
+				Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-11-09 23:47:51 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
+				Initializing Spring embedded WebApplicationContext
+2024-11-09 23:47:51 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -
+				Root WebApplicationContext: initialization completed in 6284 ms
+2024-11-09 23:47:53 [restartedMain] INFO  o.a.catalina.core.StandardService -
+				Stopping service [Tomcat]
